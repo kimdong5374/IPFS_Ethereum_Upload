@@ -11,7 +11,8 @@ So you need to change Migrations.Sol
 
 Here is the code you need to type/change. 
 
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+
 pragma solidity 0.5.0;    //Check your version of Solidity
 
 contract Migrations {
@@ -67,7 +68,8 @@ When you download ipfs-api,
 you will see the comment saying "ipfs-api has been renamed to ipfs-http-client, please update your package.json to get the latest version." then it will be downloaded. 
 Just ignore it. You dont have to change anything. Let your computer do everything for you.
 
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+
 
 How To Run.
 1. go to your ganache directory and type "npm run start" then ganache will be started. 
@@ -81,7 +83,8 @@ How To Run.
 9. upload your images and click "submit". A few seconds later metamask will pop up and ask you whether you continue the transaction by paying a transaction fee. 
 10. After you pay it, you will see image preview on the same page. 
 
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+
 
 How To Check IPFS Hash
 
@@ -96,7 +99,8 @@ How To Check IPFS Hash
 9. You will see the hash. 
 10. Congrats
 
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+
 If you see Error: rpc error with payload {"id": ~~~~~~~~~~."jsonrpc": 2.0 ["~~~~~~~~~~~~~~~"]} 
 
 It is nothing wrong with the code of the Dapp. It is a metamask problem. 
