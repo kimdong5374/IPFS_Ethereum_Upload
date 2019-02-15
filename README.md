@@ -49,10 +49,22 @@ Truffle v5.0.4 (core: 5.0.4)
 Solidity v0.5.0 (solc-js)
 Node v8.12.0
 
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+How to set up the Dapp
+
+1. git clone the repositrory.
+2. cd ipfs_image_uploader
+3. ~/ipfs_image_uploader$ npm install
+4. cd ..
+5. npm install -g ganache-cli 
+6. npm install -g truffle
+7. cd ipfs_image_uploader
+8. ~/ipfs_image_uploader$ npm install --save ipfs-api
+
+----------------------------------------------------------------------------------------------------------------------------
 When you download ipfs-api,
 
-you will see the comment saying "ipfs-api has changed to ipfs-http-client" then it will be downloaded. 
+you will see the comment saying "ipfs-api has been renamed to ipfs-http-client, please update your package.json to get the latest version." then it will be downloaded. 
 Just ignore it. You dont have to change anything. Let your computer do everything for you.
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -92,6 +104,9 @@ It is nothing wrong with the code of the Dapp. It is a metamask problem.
 signout from metamask and retry. or change the port number and retry. 
 
 it will work fine. 
+
+
+Thank you.
 
 
 
